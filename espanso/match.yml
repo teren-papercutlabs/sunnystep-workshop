@@ -1,0 +1,29 @@
+matches:
+  - trigger: ":para"
+    replace: "Confirm your understanding of my request/statement by paraphrasing it back to me. Do not start any work until I confirm your understanding."
+
+  - trigger: ":interview"
+    replace: "I want to build something but I'm not sure how to describe it yet. Interview me — ask me questions one at a time about what I need, who it's for, and how I'll use it. After each answer, ask the next question. When you have enough to work with, summarise what you've learned and propose a plan. Don't start building until I approve the plan."
+
+  - trigger: ":retro"
+    replace: |
+      Run a retro on this conversation. Review everything we did — friction points, errors, things that took longer than they should have, misunderstandings, and general room for improvement.
+
+      For each finding, produce a concrete, paste-ready fix targeting one of these artifacts:
+
+      - **CLAUDE.md** — entries to add or update (exact text I can paste into the file)
+      - **Skills** — new skills to create or modifications to existing ones (file path + exact content)
+
+      Do not give me abstract reflections or bullet-point lessons. Every item in the retro must be a specific file edit with the exact text I can paste. If a finding doesn't warrant a persistent artifact change, skip it.
+
+  - trigger: ":explain"
+    replace: |
+      Explain what just happened in three parts:
+
+      1. **What happened** — explain in simple, non-technical language. No jargon. Assume I have no engineering background.
+
+      2. **Context** — what was the state before, and what's the state after? What changed?
+
+      3. **Implications** — if there are consequences or follow-up decisions, explain them simply. For each one, give me options with pros, cons, and your recommendation.
+
+      Keep all three parts concise.

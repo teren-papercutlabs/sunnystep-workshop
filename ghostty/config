@@ -1,0 +1,14 @@
+# Sunnystep Workshop — Ghostty Config
+
+theme = catppuccin-mocha
+font-family = JetBrains Mono
+font-size = 15
+
+# Shift+Enter sends newline (for multi-line prompts in Claude Code)
+keybind = shift+enter=text:\n
+
+# Quality of life
+window-padding-x = 12
+window-padding-y = 8
+cursor-style = bar
+copy-on-select = clipboard
