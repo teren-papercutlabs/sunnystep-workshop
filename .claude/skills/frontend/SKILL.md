@@ -1,6 +1,15 @@
 # frontend
 
-Sunnystep design system and frontend execution protocol. Provides brand colors, typography, voice guidelines, and UI patterns for building on-brand interfaces. Use for any frontend, UI, or design work regardless of specific wording used.
+Sunnystep design system and frontend execution protocol. Built on **shadcn/ui + Tailwind CSS** with Sunnystep brand tokens applied on top. Provides brand colors, typography, voice guidelines, and UI patterns for building on-brand interfaces. Use for any frontend, UI, or design work regardless of specific wording used.
+
+## Tech Stack
+
+- **Component library:** shadcn/ui (Radix primitives + Tailwind)
+- **Styling:** Tailwind CSS with Sunnystep CSS custom properties
+- **Icons:** Lucide React (32px grid, 2px stroke to match brand iconography)
+- **Font:** Matter SQ (brand font), fallback to Inter or DM Sans from Google Fonts
+
+Override shadcn's default neutral palette with Sunnystep tokens. The design-tokens reference file has copy-paste CSS variables ready to drop into `globals.css`.
 
 ## Brand Identity
 

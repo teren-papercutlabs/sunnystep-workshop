@@ -13,7 +13,7 @@ Do the following one step at a time. After each step, confirm it worked before m
    - Create the global skills directory if it doesn't exist: `mkdir -p ~/.claude/skills`
    - Copy each skill folder from the repo into global skills: `cp -r ~/sunnystep-workshop/.claude/skills/* ~/.claude/skills/`
    - Verify the skills are installed by listing them: `ls ~/.claude/skills/`
-   - I should see folders like `agent-builder` and `frontend`. If not, something went wrong — fix it before moving on.
+   - I should see folders like `sunnystep-agent-builder` and `frontend`. If not, something went wrong — fix it before moving on.
 
 2. **Install Homebrew** — this is a tool that makes it easy to install other tools. macOS only — if I'm on Windows, skip this step.
    - I'll need to open my regular Terminal app (not Claude Code) and paste a command there. Tell me exactly what to paste and what to expect.
@@ -45,7 +45,7 @@ Do the following one step at a time. After each step, confirm it worked before m
    - Restart Espanso: `espanso restart`
 
 8. **Verify everything works:**
-   - Check skills are installed: `ls ~/.claude/skills/` — should show `agent-builder` and `frontend` folders.
+   - Check skills are installed: `ls ~/.claude/skills/` — should show `sunnystep-agent-builder` and `frontend` folders.
    - Ask me to open Ghostty — it should have a dark theme and a clean monospace font.
    - Ask me to type `:para` in any text field — it should expand into a full prompt about paraphrasing.
    - If anything doesn't work, help me fix it before moving on.
